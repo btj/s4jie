@@ -41,3 +41,4 @@ Resources
 - [Where is the JDT/Core Code?](http://wiki.eclipse.org/JDT_Core_Committer_FAQ#Where_is_the_JDT.2FCore_code.3F)
 - [GitHub mirror of the JDT/Core Git repository](https://github.com/eclipse/eclipse.jdt.core)
 - [Eclipse Bugzilla](https://bugs.eclipse.org/bugs/buglist.cgi?component=Core&product=JDT&resolution=---)
+- [JDT Project](https://projects.eclipse.org/projects/eclipse.jdt)
