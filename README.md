@@ -32,3 +32,11 @@ class Account {
 Edit-time support should include syntax highlighting, squigglies indicating malformed or ill-typed fragments, code completion, and refactoring. Build-time support should include optionally generating run-time checks. The hacked Eclipse should be suitable for use by students as part of their Java programming course.
 
 It should be as easy as possible to keep the hacked Eclipse up-to-date with the upstream Eclipse, so as to incorporate work done upstream to support new Java language features, add new editor features, fix bugs, etc.
+
+Resources
+=========
+
+- [JDT Core Development Resources](http://www.eclipse.org/jdt/core/dev.php)
+- [JDT Core Committer FAQ](http://wiki.eclipse.org/JDT_Core_Committer_FAQ)
+- [Where is the JDT/Core Code?](http://wiki.eclipse.org/JDT_Core_Committer_FAQ#Where_is_the_JDT.2FCore_code.3F)
+- [GitHub mirror of JDT/Core Git repository](https://github.com/eclipse/eclipse.jdt.core)
