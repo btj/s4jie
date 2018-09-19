@@ -42,3 +42,4 @@ Resources
 - [GitHub mirror of the JDT/Core Git repository](https://github.com/eclipse/eclipse.jdt.core)
 - [Eclipse Bugzilla](https://bugs.eclipse.org/bugs/buglist.cgi?component=Core&product=JDT&resolution=---)
 - [JDT Project](https://projects.eclipse.org/projects/eclipse.jdt)
+- [org.eclipse.jdt.core Plugin Sources](https://github.com/eclipse/eclipse.jdt.core/tree/master/org.eclipse.jdt.core)
