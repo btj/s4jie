@@ -10,19 +10,19 @@ class Account {
     public int getBalance() { return balance; }
     
     public Account()
-        /*@ post getBalance() == 0; @*/
+        //@ post getBalance() == 0;
     {}
     
     public void deposit(int amount)
-        /*@ pre 0 <= amount; @*/
-        /*@ post getBalance() == old(getBalance()) + amount; @*/
+        //@ pre 0 <= amount;
+        //@ post getBalance() == old(getBalance()) + amount;
     {
         balance += amount;
     }
     
     public void withdraw(int amount)
-        /*@ pre 0 <= amount && amount <= getBalance(); @*/
-        /*@ post getBalance() == old(getBalance()) - amount; @*/
+        //@ pre 0 <= amount && amount <= getBalance();
+        //@ post getBalance() == old(getBalance()) - amount;
     {
         balance -= amount;
     }
