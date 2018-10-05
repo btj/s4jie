@@ -1,4 +1,4 @@
-# sfjie
+# s4jie
 Specs (= method pre- and postconditions) for Java in Eclipse
 
 The goal of this project is to hack Eclipse's Java development tooling so that it supports editing and building programs that specify preconditions and postconditions for methods as boolean Java expressions inside comments, like so:
@@ -10,19 +10,19 @@ class Account {
     public int getBalance() { return balance; }
     
     public Account()
-        //@ post getBalance() == 0;
+        //@ ensures getBalance() == 0;
     {}
     
     public void deposit(int amount)
-        //@ pre 0 <= amount;
-        //@ post getBalance() == old(getBalance()) + amount;
+        //@ requires 0 <= amount;
+        //@ ensures getBalance() == old(getBalance()) + amount;
     {
         balance += amount;
     }
     
     public void withdraw(int amount)
-        //@ pre 0 <= amount && amount <= getBalance();
-        //@ post getBalance() == old(getBalance()) - amount;
+        //@ requires 0 <= amount && amount <= getBalance();
+        //@ ensures getBalance() == old(getBalance()) - amount;
     {
         balance -= amount;
     }
